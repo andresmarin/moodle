@@ -1,0 +1,59 @@
+/* Custom CSS
+-------------------------*/
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
+
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body {
+    background: url([[pix:theme|bg-top]]) no-repeat scroll right top 40px,  url([[pix:theme|bg-y]]) repeat-x scroll center top rgba(0, 0, 0, 0);
+}
+
+.navbar-inner {
+    background-image: url([[pix:theme|bg-y]]);
+}
+
+
+a.logo {
+    height: 100px;
+}
+
+.block {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    clear: both;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+a {
+    color: #00579D;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: #3E8BC6;
+}
